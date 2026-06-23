@@ -1,3 +1,4 @@
+// import Card from "./components/Card"
 import Greeting from "./components/Greeting"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <p>I'm Learning Full Stack Share Market</p>
       <Greeting/>
       <Greeting/>
+      {/* <Card/> */}
     </>
   )
 }
