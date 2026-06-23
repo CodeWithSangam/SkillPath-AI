@@ -6,6 +6,7 @@ function Greeting() {
         <>
         <h1>Namaste, Modi Ji Kya hoga ab {num}</h1>
         <Card/>
+        <Card/>
         </>
     )
 }

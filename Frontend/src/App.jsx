@@ -8,7 +8,6 @@ function App() {
       <h1 className="heading" style={{backgroundColor:"red",color:"white"}}>Hi Everyone, I'm {name}</h1>
       <p>I'm Learning Full Stack Share Market</p>
       <Greeting/>
-      <Greeting/>
       {/* <Card/> */}
     </>
   )
