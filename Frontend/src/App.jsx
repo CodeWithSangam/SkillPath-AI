@@ -1,15 +1,17 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './components/layout/Home';
-import About from './components/layout/About';
-import Contact from './components/layout/Contact';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import LandingPage from './pages/LandingPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return(
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/about" element={<About/>} />
-      <Route path="/contact" element={<Contact/>} />
+      <Route path="/" element={<LandingPage/>} />
+      <Route path="/about" element={<AboutPage/>} />
+      <Route path="/contact" element={<ContactPage/>} />
+      <Route path='*' element={<NotFoundPage/>} />
     </Routes>
     </BrowserRouter>
   )
